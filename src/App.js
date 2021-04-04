@@ -13,7 +13,12 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Ebele</small>
+          <small>
+            Coded by{" "}
+            <a href="https://github.com/BeautySpot88/dictionary-project">
+              Ebele
+            </a>
+          </small>
         </footer>
       </div>
     </div>
