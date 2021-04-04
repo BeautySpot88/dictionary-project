@@ -1,3 +1,17 @@
+input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px 4px;
+}
+
+.Dictionary section {
+  background-color: rgba(51, 170, 51, 0.1);
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+}
+
 .SearchField {
   text-align: center;
 }
