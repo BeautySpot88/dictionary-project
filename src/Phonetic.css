@@ -1,0 +1,8 @@
+.Phonetic a {
+  color: #59bfa7;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic a:hover {
+  color: #387a6b;
+}

@@ -1,5 +1,6 @@
-h1 {
+.keyword {
   font-size: 60px;
   color: #59bfa7;
   font-weight: bold;
+  text-align: left;
 }

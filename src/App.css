@@ -1,3 +1,10 @@
+h1 {
+  text-align: center;
+  color: #59bfa7;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
 .App-header {
   margin: 30px 0;
 }
