@@ -5,6 +5,11 @@ h1 {
   font-weight: bolder;
 }
 
+.App {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .App-header {
   margin: 30px 0;
 }
