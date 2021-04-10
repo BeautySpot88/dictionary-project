@@ -16,14 +16,16 @@ export default function Dictionary(props) {
   }
 
   function handlePexelsResponse(response) {
-    console.log(response);
-    setPhotos(response.data.photos);
+    setPhotos(response.data);
   }
 
   function search() {
     // documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_GB/${keyword}`;
-    axios.get(apiUrl).then(handleDictionResponse);
+    axios
+      .get(apiUrl)
+      .then(handleDictionResponse)
+      .catch(() => setResults(null));
 
     let pexelApiKey =
       "563492ad6f91700001000001e1218c97a5ea4a21bc59ce4f59879502";
