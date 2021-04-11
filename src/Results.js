@@ -1,6 +1,8 @@
 import React from "react";
 import Phonetic from "./Phonetic";
 import Meaning from "./Meaning";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFrown } from "@fortawesome/free-solid-svg-icons";
 
 import "./Results.css";
 
@@ -28,6 +30,20 @@ export default function Results(props) {
       </div>
     );
   } else {
-    return null;
+    return (
+      <section className="noDefinition">
+        <h2>
+          No Definitions Found <br />
+          <FontAwesomeIcon icon={faFrown} />
+        </h2>
+
+        <h5>
+          Sorry pal, we couldn't find definitions for the word you were looking
+          for.
+          <br />
+          You can try the search again at later time or head to the web instead.
+        </h5>
+      </section>
+    );
   }
 }
