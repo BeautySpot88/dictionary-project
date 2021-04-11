@@ -4,7 +4,7 @@ import "./Photos.css";
 
 export default function Photos(props) {
   console.log(props.photos);
-  if (props.photos.length > 0) {
+  if (props.photos) {
     return (
       <section className="Photos">
         <div className="row">
