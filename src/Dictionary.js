@@ -13,7 +13,6 @@ export default function Dictionary(props) {
 
   function handleDictionResponse(response) {
     setResults(response.data[0]);
-    console.log(response.title);
   }
 
   function handlePexelsResponse(response) {
